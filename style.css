@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    height:8%;
+    position: relative;
+    left: 0px;
+  
+   
+}
+.navbar-header{
+    box-shadow: 0 5px 10px black;
+    left: 0px;
+    position: relative;
+  
+    padding: 2px 2px;
+   
+}
+.logo{
+    height: 50px;
+    padding: 2px 10px;
+    float: left;
+    display: inline-block;
+    position: relative;
+
+}
+.navbar-style{
+    position: fixed;
+}
+.icon-bar{
+    background-color: black;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+.name{
+    background-image: url(D:\vishwajeet.jpg);
+    background-repeat: no-repeat;
+    background-size: 70% 100%;
+    background-position: center;
+    padding-top: 10%;
+    height: 600px;
+    background-attachment: fixed;
+    opacity: 1;
+    
+}
+.name h1{
+    opacity: 1;
+}
+    
+
+
+#photo img{
+    align-items: center;
+    height: 70%;
+    width: 60%;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+    margin-bottom: 500%;
+    position: center;
+    
+    
+
+    
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 40px 80px 0 rgba(0, 0, 0, 0.2), 0 60px 80px 0 rgba(0, 0, 0, 0.19);
+  }
+
+#about{
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+h1{
+    size: 80px;
+}
+h2{
+    text-align: center;
+}
+#skills{
+    text-align: center;
+    padding: auto;
+    padding-bottom: 150px;
+}
+
+#paintings h2{
+    text-align: left;
+    font-size: 60px;
+    padding-top: 100px;
+
+}
+.img-rounded{
+    align-items: center;
+    height: 60%;
+    width: 80%;
+    border-radius: 25px;
+ 
+}
+#picture_award{
+    padding: auto;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 40px;
+}
+#picture_medal{
+    padding: auto;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    height: 500px;
+}
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #555;
+}
+#star-six {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(243, 205, 205);
+    position: center;
+ 
+  }
+  #star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid rgb(243, 205, 205);
+    position: center;
+    content: "";
+    top: 30px;
+    left: -50px;
+  }
